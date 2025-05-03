@@ -173,26 +173,26 @@ body {
     padding: 8px 18px !important;
 }
 
-.btn-primary {
-    background-color: #c4ddf8 !important;
-    border-color: #d3e6fd !important;
+.btn-1 {
+    background-color: #d3e6fd !important;
+    border: 2px solid #d3e6fd !important;
     color: #161616 !important;
 }
 
-.btn-primary:hover {
-    background-color: #BED097;
-    border-color: #BED097;
+.btn-1:hover {
+    background-color: transparent !important;
+    border: 2px solid #d3e6fd !important;
 }
 
-.btn-secondary {
+.btn-2 {
     background-color: #eeeeee !important;
-    border-color: #eeeeee !important;
+    border: 2px solid #eeeeee !important;
     color: #161616 !important;
 }
 
-.btn-secondary:hover {
-    background-color: #dee2e6;
-    border-color: #dee2e6;
+.btn-2:hover {
+    background-color: transparent !important;
+    border: 2px solid #eeeeee !important;
 }
 
 .services-list {
@@ -233,6 +233,10 @@ body {
     .banner-text p {
         font-size: 15px;
     }
+
+    .services-item {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 988px) {
@@ -245,17 +249,39 @@ body {
     }
 
     .btn-1 {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .btn-2 {
-        font-size: 14px;
+        font-size: 14px !important;
+    }
+
+    .services-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    .banner-text h1 {
+        font-size: 36px;
     }
 }
 
 @media (max-width: 768px) {
     .banner-image img {
         max-height: 400px;
+    }
+
+    .services-item {
+        font-size: 10px;
+    }
+
+    .btn-1 {
+        font-size: 12px !important;
+    }
+
+    .btn-2 {
+        font-size: 12px !important;
     }
 }
 
@@ -323,10 +349,6 @@ body {
 
     h2 {
         font-size: 25px !important;
-    }
-
-    .lead {
-        font-size: 14px !important;
     }
 
     .list-unstyled span {
@@ -487,7 +509,7 @@ body {
     }
 
     .cc p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btn-primary {
