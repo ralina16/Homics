@@ -72,7 +72,6 @@ body {
 
 .burger-menu.active {
     left: 0;
-    /* Показываем меню */
 }
 
 .burger-menu-header {
@@ -89,7 +88,7 @@ body {
 .close {
     background: none;
     border: none;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     color: #7b7b7b;
 }
@@ -113,7 +112,7 @@ body {
 .burger-menu-body a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 14px;
     transition: color 0.3s ease;
 }
 
